@@ -1,0 +1,22 @@
+# Site settings
+title: DKScript
+#email: tiff2766@gmail.com
+description: >
+  DKGL development blog.
+  https://github.com/hongtae/DKGL
+baseurl: ""
+github_username: hongtae
+
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+encoding: utf-8
+permalink: /:year:month:day/:title/
+
+# Markdown Processor Extensions
+redcarpet:
+  extensions:
+    - tables
+    - no_intra_emphasis
+    - autolink
+
