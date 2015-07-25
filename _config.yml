@@ -20,3 +20,6 @@ redcarpet:
     - no_intra_emphasis
     - autolink
 
+# Site variables
+DKGLrepoUrl: https://github.com/Hongtae/DKGL/tree/develop/
+
