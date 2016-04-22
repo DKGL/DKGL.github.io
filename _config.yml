@@ -8,17 +8,12 @@ baseurl: ""
 github_username: hongtae
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 encoding: utf-8
 permalink: /:year:month:day/:title/
 
 # Markdown Processor Extensions
-redcarpet:
-  extensions:
-    - tables
-    - no_intra_emphasis
-    - autolink
 
 # Site variables
 DKGLrepoUrl: https://github.com/Hongtae/DKGL/tree/develop/
